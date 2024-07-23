@@ -8,5 +8,3 @@ sudo pacman -S git zsh hyprland hylridle hyprpaper hyprlock waybar swaync rofi w
 git clone git@github.com:ifeelsam/setup.git ~/ 
 ```
 
-```
-```
