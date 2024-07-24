@@ -4,6 +4,10 @@
 ```
 sudo pacman -S git zsh hyprland hylridle hyprpaper hyprlock waybar swaync rofi-wayland
 ```
+for screenshots to work
+```
+sudo pacman -S wl-clipboard grim
+```
 ```
 git clone git@github.com:ifeelsam/setup.git ~/ 
 ```
