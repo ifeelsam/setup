@@ -9,7 +9,7 @@
     
     "modules-left": [ "custom/app-menu", "hyprland/window", "custom/files", "custom/browser", "custom/chats", "custom/terminal", "custom/clipboard" ],
     "modules-center": [],
-    "modules-right": [ "custom/media", "tray", "pulseaudio", "battery",  "custom/recording", "custom/do-not-disturb", "clock" ],
+    "modules-right": [ "custom/media", "tray", "pulseaudio", "network" ,"battery",  "custom/recording", "custom/do-not-disturb", "clock" ],
     
     "custom/app-menu": {
       "format": " ",
@@ -45,10 +45,21 @@
       "on-click": "firefox",
       "tooltip": false
     },
-
+    "network": {
+    	"interface": "wlan0",
+	    "format": "{ifname}",
+	    "format-wifi": "",
+	    "format-ethernet": "{ifname} ",
+	    "tooltip-format": "{ifname}",
+      "format-disconnected": "",
+	    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+	    "tooltip-format-ethernet": "{ifname} ",
+	    "tooltip-format-disconnected": "Disconnected",
+	    "max-length": 50,
+    },
     "custom/chats": {
       "format": "Chats",
-      "on-click": "discord",
+      "on-click": "vesktop",
       "tooltip": false
     },
 
@@ -123,7 +134,7 @@
       },
       "icon-size": 20,
       "format": "{icon}",
-      "format-icons": [" ", " ", " ", " ", " "],
+      "format-icons": [" ", " ", " ,", " ", " "],
       "format-charging": "  {capacity}%",
       "format-critical": " {capacity}%",
       "tooltip": false

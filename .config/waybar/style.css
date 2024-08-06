@@ -7,7 +7,7 @@
 window#waybar {
   background-color: rgba(27, 27, 27, 0.25);
 }
-
+#network,
 #custom-app-menu,
 #window,
 #custom-files,
@@ -73,6 +73,12 @@ window#waybar {
   font-size: 17; 
   margin-left: 10px;
   margin-right: 12px;
+}
+
+#network {
+  font-size: 17; 
+  margin-left: 1px;
+  margin-right: 22px;
 }
 
 #battery {
