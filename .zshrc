@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
+export PATH="/home/sam/.local/share/solana/install/active_release/bin:$PATH"
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -108,9 +108,10 @@ source $ZSH/oh-my-zsh.sh
 # aliases
 alias q="exit"
 alias l="ls -lah"
+alias gcl="git clone"
 alias gp="git push -u origin main"
 alias ga="git add"
-alias gc="git commit"
+alias gc="git commit -m"
 alias repo="gh repo create --public"
 alias conf="cd ~/.config/"
 alias proj="cd ~/Projects/ && nvim ."
@@ -133,3 +134,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
