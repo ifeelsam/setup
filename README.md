@@ -11,6 +11,9 @@ sudo pacman -S wl-clipboard grim
 ```
 git clone git@github.com:ifeelsam/setup.git ~/ 
 ```
+```
+yay -S nm-applet blueman-applet
+```
 ### command to make nautilus as default file manager
 ```
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
