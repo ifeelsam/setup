@@ -15,7 +15,7 @@ git clone git@github.com:ifeelsam/setup.git ~/
 ### for other utils
 ```
 yay -S nm-applet blueman-applet
-```/
+```
 ### for other utils
 
 ### command to make nautilus as default file manager
